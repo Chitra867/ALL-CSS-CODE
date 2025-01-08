@@ -1,0 +1,17 @@
+.container{
+    width: 600px;
+    background-color: rgb(50, 215, 237);
+    color: rgb(18, 7, 7);
+    font-size: 20px;
+    padding: 20px;
+    padding-left: 50px; 
+    text-align: justify;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 30px;
+    word-spacing: 20px;
+    /* letter-spacing: 5px; */
+    text-indent: 50px;
+    
+}
