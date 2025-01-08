@@ -1,0 +1,14 @@
+.first-demo{
+    height: 200px;
+    width: 500px;
+    background-color: rgb(200, 243, 165);
+    /* margin-bottom: 10px; */
+}
+.second-demo{
+    height: 200px;
+    width: 500px;
+    background-color: #f11d52;
+    margin-top: 20px;
+    margin-left: 50px;
+    
+}
