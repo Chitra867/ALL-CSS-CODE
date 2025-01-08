@@ -1,0 +1,62 @@
+/* CSS
+Cascading stylesheets
+used to make web pages look pretty
+version css3
+
+type of css
+i> internal css -> written inside <head>tag 
+ii> external css -> written in separate file and linked to html file
+iii> inline css -> written inside html tag
+-Best practice is to use external css
+-worst practice is to use inline css */
+h1{
+    color: red;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+/* class selector */
+.title{
+    color: rgb(21, 21, 232);
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: #d7f092;
+}
+/* id selector */
+#demo{
+    color: green;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+#xyz{
+    color: blue;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: aqua;
+}
+.read{
+    color: black !important;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: wheat !important;
+}
+/* group selector */
+#demo, .read{
+    color: rgb(13, 91, 87);
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: #ef2121;
+}
+
+/* universal selector */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #076532;
+}
