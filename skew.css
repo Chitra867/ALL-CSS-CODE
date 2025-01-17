@@ -1,0 +1,12 @@
+.box{
+    height: 300px;
+    width: 150px;
+    background-color: #18f338;
+    margin: 50px;
+    /* transform: skewX(10deg);
+    transform: skewY(10deg);
+    transform: skewX(-10deg);
+    transform: skewY(-10deg); */
+    transform: skew(10deg, 10deg);
+    /* transform: rotate(50deg); */
+}
